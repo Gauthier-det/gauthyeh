@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Gauthyeh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand"><a href="index.html">Gauthyeh</a></div>
+        <div class="nav-links">
+            <a href="projets.html">Projets perso</a>
+            <a href="but.html">BUT Info</a>
+            <a href="parcours.html">Parcours</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+    </nav>
+
+    <main class="content-container">
+        <h1>Contact</h1>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Restons en contact</h2>
+                <p>N'hésite pas à me contacter pour discuter de projets ou d'opportunités.</p>
+                
+                <div class="contact-links">
+                    <a href="mailto:ton.email@example.com" class="contact-btn">
+                        <span>Email</span>
+                    </a>
+                    <a href="https://github.com/tonpseudo" class="contact-btn" target="_blank">
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/tonpseudo" class="contact-btn" target="_blank">
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Ton nom" required>
+                <input type="email" placeholder="Ton email" required>
+                <textarea placeholder="Ton message" rows="6" required></textarea>
+                <button type="submit" class="submit-btn">Envoyer</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
